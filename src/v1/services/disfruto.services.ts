@@ -1,5 +1,6 @@
 const getItemSelected = (item: number) => {
-  if(item <= 0 || item > 30) {
-    
+  if (item <= 1 || item > 30) {
+    throw "El numero no es válido"
   }
+
 }
